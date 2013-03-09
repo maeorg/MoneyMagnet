@@ -21,44 +21,56 @@
     display:-ms-grid;
     -ms-grid-columns: 1;
     -ms-grid-rows: 1;
-    background: rgb(0, 188, 242);
+    background: #f2f2f2; /*rgb(0, 188, 242);*/
     width: 400px;
     height: 500px;
-
+    padding-top: 30px;
 }
 
-/*.grid #input_col > div.msgrid > div > form
+.grid .category
 {
     display: -ms-grid;
-    -ms-grid-columns: 2;
+    -ms-grid-columns: 3;
     -ms-grid-rows: 2;
-
+    width: 210px;
+    margin:auto;
 }
 
-    .grid #input_col > div.msgrid > div > form > span:first-child
+    .grid .category > div
+    {
+        padding: 5px 0;
+    }
+
+    .grid .category > div:nth-child(1)
     {
         -ms-grid-column: 1;
-        -ms-grid-row:1;
+        -ms-grid-row: 1;
     }
 
-    .grid #input_col > div.msgrid > div > form > input:first-child
+    .grid .category > div:nth-child(2)
     {
         -ms-grid-column: 2;
-        -ms-grid-row:1;
+        -ms-grid-row: 1;
+    }
+    .grid .category > div:nth-child(3)
+    {
+        -ms-grid-column: 3;
+        -ms-grid-row: 1;
     }
 
-    .grid #input_col > div.msgrid > div > form > span:nth-child(2)
+    .grid .category > div:nth-child(4)
     {
         -ms-grid-column: 1;
-        -ms-grid-row:2;
+        -ms-grid-row: 2;
     }
 
-    .grid #input_col > div.msgrid > div > form > input:nth-child(2)
+    .grid .category > div:nth-child(5)
     {
         -ms-grid-column: 2;
-        -ms-grid-row:2;
+        -ms-grid-row: 2;
     }
-    */
+
+    
 #income_form {
     display:none;
 }
@@ -75,6 +87,20 @@
 
 .grid .input_selecter
 {
+    background: gray;
     font-size: 20px;
+    margin-left: 70px;
+    margin-bottom: 20px;
 }
 
+    .grid .input_selecter:hover
+    {
+        background: #343434;
+    }
+
+.save
+{
+    float: right;
+    margin-right: 45px;
+    margin-top: 15px;
+}

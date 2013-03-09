@@ -9,14 +9,14 @@
             // TODO: Initialize the page here.
             var income = document.getElementById('income_selected');
             var expense = document.getElementById('expense_selected');
-            income.onclick = function () {
+            income.onclick = function () {
                 document.getElementById("income_form").style.display = "block";
-                document.getElementById("expense_form").style.display = "none";
+                document.getElementById("expense_form").style.display = "none";
             }
 
-            expense.onclick = function() {
+            expense.onclick = function() {
                 document.getElementById("expense_form").style.display = "block";
-                document.getElementById("income_form").style.display = "none";
+                document.getElementById("income_form").style.display = "none";
             }
         }
 

@@ -26,27 +26,43 @@
             <div id="input_col">
                 <div class="msgrid">
                     <div>
-                        <span id="income_selected" class="input_selecter">Income</span>
-                        <span id="expense_selected" class="input_selecter">Expense</span>
+                        <input type="button" id="income_selected" class="input_selecter" value="Income"/>
+                        <input type="button" id="expense_selected" class="input_selecter" value="Expense"/>
                         <form id="income_form">
-                            <p>Ammount: </p> <input type="text" name="ammount" placeholder="0.00€"/><br />
-                            
-                            <p>Notes:</p> <input type="text" name="notes" placeholder="Your comments here..." />                         
+                            <p>Ammount: </p> <input type="text" name="ammount" placeholder="0.00€" required/><br />
+                            <div class="category" >
+                                <div>
+                                    <img src="../../Icons/Save-money.png" width="60px"/>
+                                </div>
+                                <div>
+                                    <img src="../../Icons/Money.png" width="60px"/>
+                                </div>
+                                
+                            </div><br />  
+                            <p>Notes:</p> <input type="text" name="notes" placeholder="Your comments here..." />
+                            <input type="submit" name="input_form_submit" value="Save"  class="save"/>                                                     
                         </form>
                         <form id="expense_form">
                             <p>Ammount: </p> <input type="text" name="ammount" placeholder="0.00€"/><br />
-                            <div id="category">
-                                <div>
-                                    <img src="../../Icons/house.png" width="50px"/></div>
-                                <div>
-                                    <img src="../../Icons/food.png" width="50px"/></div>
-                                <div>
-                                    <img src="../../Icons/gas.png" width="50px"/></div>
-                                <div>
-                                    <img src="../../Icons/Paw-Print.png" width="50px"/></div>
-                                <div>
-                                    <img src="../../Icons/heart.png" width="50px"/></div>
-                            </div><br />                             
+                            <div class="category">
+                                <div class="itemtemplate" data-win-control="WinJS.Binding.Template"s>
+                                    <img src="../../Icons/house.png" width="60px" />
+                                </div>
+                                <div>
+                                    <img src="../../Icons/food.png" width="60px"/>
+                                </div>
+                                <div>
+                                    <img src="../../Icons/gas.png" width="60px"/>
+                                </div>
+                                <div>
+                                    <img src="../../Icons/Paw-Print.png" width="60px"/>
+                                </div>
+                                <div>
+                                    <img src="../../Icons/heart.png" width="60px"/>
+                                </div>
+                            </div><br />
+                            <p>Notes:</p> <input type="text" name="notes" placeholder="Your comments here..." />                             
+                            <input type="submit" name="input_form_submit" value="Save" class="save" />
                         </form>
                     </div>
                 </div>
