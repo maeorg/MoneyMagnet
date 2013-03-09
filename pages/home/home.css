@@ -1,0 +1,80 @@
+﻿.homepage section[role=main] {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .homepage section[role=main] {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .homepage section[role=main] {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+.grid #input_col > div.msgrid {
+    display:-ms-grid;
+    -ms-grid-columns: 1;
+    -ms-grid-rows: 1;
+    background: rgb(0, 188, 242);
+    width: 400px;
+    height: 500px;
+
+}
+
+/*.grid #input_col > div.msgrid > div > form
+{
+    display: -ms-grid;
+    -ms-grid-columns: 2;
+    -ms-grid-rows: 2;
+
+}
+
+    .grid #input_col > div.msgrid > div > form > span:first-child
+    {
+        -ms-grid-column: 1;
+        -ms-grid-row:1;
+    }
+
+    .grid #input_col > div.msgrid > div > form > input:first-child
+    {
+        -ms-grid-column: 2;
+        -ms-grid-row:1;
+    }
+
+    .grid #input_col > div.msgrid > div > form > span:nth-child(2)
+    {
+        -ms-grid-column: 1;
+        -ms-grid-row:2;
+    }
+
+    .grid #input_col > div.msgrid > div > form > input:nth-child(2)
+    {
+        -ms-grid-column: 2;
+        -ms-grid-row:2;
+    }
+    */
+#income_form {
+    display:none;
+}
+
+    form > P
+    {
+        min-width: 70px;
+        display: inline-block;
+    }
+
+#expense_form {
+    display:none;
+}
+
+.grid .input_selecter
+{
+    font-size: 20px;
+}
+

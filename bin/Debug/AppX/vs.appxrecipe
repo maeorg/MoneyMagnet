@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>COMPAQ6720S</Machine>
+    <WindowsUser>John Smith</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>2B96C9060F58C843A0D7627456E984A93F8CB83D69AE7B3A13E79B55ACA2520E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>65a5682f-743f-48d5-97c1-b4355367ed15_1.0.0.0_neutral__w63jneffmx3dy</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>65a5682f-743f-48d5-97c1-b4355367ed15_w63jneffmx3dy!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>65a5682f-743f-48d5-97c1-b4355367ed15</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Katrina</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-09T20:29:23.077</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-03-09T18:45:33.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+      <Modified>2013-03-09T19:43:18.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\Icons\gas.png">
+      <PackagePath>Icons\gas.png</PackagePath>
+      <Modified>2013-03-09T20:21:39.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\Icons\food.png">
+      <PackagePath>Icons\food.png</PackagePath>
+      <Modified>2013-03-09T20:21:39.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\Icons\house.png">
+      <PackagePath>Icons\house.png</PackagePath>
+      <Modified>2013-03-09T20:21:39.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\Icons\Money.png">
+      <PackagePath>Icons\Money.png</PackagePath>
+      <Modified>2013-03-09T20:21:39.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\Icons\Paw-Print.png">
+      <PackagePath>Icons\Paw-Print.png</PackagePath>
+      <Modified>2013-03-09T20:21:39.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\Icons\Save-Money.png">
+      <PackagePath>Icons\Save-Money.png</PackagePath>
+      <Modified>2013-03-09T20:21:39.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\Icons\heart.png">
+      <PackagePath>Icons\heart.png</PackagePath>
+      <Modified>2013-03-09T20:21:39.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-09T17:27:23.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-09T17:27:23.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-09T17:27:23.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-09T17:27:23.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-03-09T17:27:23.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2013-03-09T17:27:23.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+      <Modified>2013-03-09T19:09:42.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+      <Modified>2013-03-09T20:30:54.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-03-09T17:27:23.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-03-09T20:29:22.142</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20512</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20512</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

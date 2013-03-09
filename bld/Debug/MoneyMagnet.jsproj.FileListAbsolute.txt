@@ -1,0 +1,13 @@
+C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\bin\Debug\resources.pri
+C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\bin\Debug\AppxManifest.xml
+C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\bin\Debug\MoneyMagnet.build.appxrecipe
+C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\bld\Debug\priconfig.xml.intermediate
+C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\bld\Debug\layout.resfiles.intermediate
+C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\bld\Debug\resources.resfiles.intermediate
+C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\bld\Debug\pri.resfiles.intermediate
+C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\bld\Debug\priconfig.xml
+C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\bld\Debug\layout.resfiles
+C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\bld\Debug\resources.resfiles
+C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\bld\Debug\pri.resfiles
+C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\bld\Debug\LanguageQualifiers.txt
+C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\bld\Debug\ProjectArchitectures.txt
