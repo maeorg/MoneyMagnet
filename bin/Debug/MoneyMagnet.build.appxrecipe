@@ -1,77 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>COMPAQ6720S</Machine>
-    <WindowsUser>John Smith</WindowsUser>
+    <Machine>KATRINA-PC</Machine>
+    <WindowsUser>Katrina</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\css\default.css">
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\pages\home\home.css">
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\Icons\gas.png">
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons\gas.png">
       <PackagePath>Icons\gas.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\Icons\food.png">
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons\food.png">
       <PackagePath>Icons\food.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\Icons\house.png">
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons\house.png">
       <PackagePath>Icons\house.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\Icons\Money.png">
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons\Money.png">
       <PackagePath>Icons\Money.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\Icons\Paw-Print.png">
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons\Paw-Print.png">
       <PackagePath>Icons\Paw-Print.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\Icons\Save-Money.png">
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons\Save-Money.png">
       <PackagePath>Icons\Save-Money.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\Icons\heart.png">
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons\heart.png">
       <PackagePath>Icons\heart.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\images\logo.png">
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\images\smalllogo.png">
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\images\splashscreen.png">
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\images\storelogo.png">
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\js\default.js">
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\js\navigator.js">
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\pages\home\home.js">
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\pages\home\home.html">
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\default.html">
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\John Smith\Desktop\moneymagnet\MoneyMagnet\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
