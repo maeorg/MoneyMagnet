@@ -54,6 +54,13 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="css\default.css" />
+    <Content Include="Icons 70x70\Bonus.png" />
+    <Content Include="Icons 70x70\Food.png" />
+    <Content Include="Icons 70x70\Fuel.png" />
+    <Content Include="Icons 70x70\Love.png" />
+    <Content Include="Icons 70x70\Pets.png" />
+    <Content Include="Icons 70x70\Rent.png" />
+    <Content Include="Icons 70x70\Salary.png" />
     <Content Include="Icons\gas.png" />
     <Content Include="Icons\food.png" />
     <Content Include="Icons\house.png" />
@@ -67,13 +74,6 @@
     <Content Include="images\storelogo.png" />
     <Content Include="js\default.js" />
     <Content Include="js\navigator.js" />
-    <Content Include="NewFolder\Bonus.png" />
-    <Content Include="NewFolder\Food.png" />
-    <Content Include="NewFolder\Fuel.png" />
-    <Content Include="NewFolder\Love.png" />
-    <Content Include="NewFolder\Pets.png" />
-    <Content Include="NewFolder\Rent.png" />
-    <Content Include="NewFolder\Salary.png" />
     <Content Include="pages\home\home.css" />
     <Content Include="pages\home\home.html" />
     <Content Include="pages\home\home.js" />
