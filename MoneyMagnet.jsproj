@@ -67,6 +67,13 @@
     <Content Include="images\storelogo.png" />
     <Content Include="js\default.js" />
     <Content Include="js\navigator.js" />
+    <Content Include="NewFolder\Bonus.png" />
+    <Content Include="NewFolder\Food.png" />
+    <Content Include="NewFolder\Fuel.png" />
+    <Content Include="NewFolder\Love.png" />
+    <Content Include="NewFolder\Pets.png" />
+    <Content Include="NewFolder\Rent.png" />
+    <Content Include="NewFolder\Salary.png" />
     <Content Include="pages\home\home.css" />
     <Content Include="pages\home\home.html" />
     <Content Include="pages\home\home.js" />
