@@ -28,8 +28,8 @@
                     <div>
                         <input type="button" id="income_selected" class="input_selecter" value="Income"/>
                         <input type="button" id="expense_selected" class="input_selecter" value="Expense"/>
-                        <form id="income_form">
-                            <p>Ammount: </p> <input type="text" name="ammount" placeholder="0.00€" required/><br />
+                        <form id="income_form" action="income_storage()">
+                            <p>Ammount: </p> <input type="text" name="ammount" placeholder="0.00€" required id="ammount" /><br />
                             <div class="category" >
                                 <div>
                                     <img src="../../Icons 70x70/Salary.png" width="60px"/>
@@ -39,14 +39,19 @@
                                 </div>
                                 
                             </div><br />  
-                            <p>Notes:</p> <input type="text" name="notes" placeholder="Your comments here..." />
-                            <input type="submit" name="input_form_submit" value="Save"  class="save"/>                                                     
+                            <p>Notes:</p> <input type="text" name="notes" placeholder="Your comments here..." id="notes"/>
+                            <input type="button" name="input_form_submit" value="Save"  id="save_income"/>                                                     
                         </form>
                         <form id="expense_form">
                             <p>Ammount: </p> <input type="text" name="ammount" placeholder="0.00€"/><br />
                             <div class="category">
+<<<<<<< HEAD
                                 <div class="itemtemplate" data-win-control="WinJS.Binding.Template"s>
                                     <img src="../../Icons 70x70/Rent.png" width="60px" />
+=======
+                                <div>
+                                    <img src="../../Icons/house.png" width="60px" />
+>>>>>>> data saving
                                 </div>
                                 <div>
                                     <img src="../../Icons 70x70/Food.png" width="60px"/>
@@ -65,6 +70,10 @@
                             <input type="submit" name="input_form_submit" value="Save" class="save" />
                         </form>
                     </div>
+                    
+                </div>
+                <div class="result">
+                    <div ><p id="textarea"></p></div>
                 </div>
             </div>
         </section>

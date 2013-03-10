@@ -114,11 +114,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
-      <Modified>2013-03-09T23:29:23.485</Modified>
+      <Modified>2013-03-10T05:18:42.428</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
-      <Modified>2013-03-10T03:18:00.881</Modified>
+      <Modified>2013-03-10T05:18:42.538</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\default.html">
       <PackagePath>default.html</PackagePath>
