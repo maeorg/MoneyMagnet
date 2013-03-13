@@ -55,23 +55,19 @@
     </AppxManifest>
     <Content Include="css\default.css" />
     <Content Include="Icons 70x70\Bonus.png" />
+    <Content Include="Icons 70x70\Electricity.png" />
     <Content Include="Icons 70x70\Food.png" />
     <Content Include="Icons 70x70\Fuel.png" />
+    <Content Include="Icons 70x70\Gifts.png" />
     <Content Include="Icons 70x70\Love.png" />
     <Content Include="Icons 70x70\Pets.png" />
     <Content Include="Icons 70x70\Rent.png" />
     <Content Include="Icons 70x70\Salary.png" />
-    <Content Include="Icons\gas.png" />
-    <Content Include="Icons\food.png" />
-    <Content Include="Icons\house.png" />
-    <Content Include="Icons\Money.png" />
-    <Content Include="Icons\Paw-Print.png" />
-    <Content Include="Icons\Save-Money.png" />
-    <Content Include="Icons\heart.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
+    <Content Include="images\widelogo.png" />
     <Content Include="js\default.js" />
     <Content Include="js\navigator.js" />
     <Content Include="pages\home\home.css" />

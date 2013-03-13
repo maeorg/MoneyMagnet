@@ -22,14 +22,16 @@
                 <span class="pagetitle">Welcome to MoneyMagnet!</span>
             </h1>
         </header>
-        <section aria-label="Main content" role="main">
+
+        <section aria-label="Main content" role="main" id="main">
+            <h2>Fast entry</h2>
             <div id="input_col">
                 <div class="msgrid">
                     <div>
                         <input type="button" id="income_selected" class="input_selecter" value="Income"/>
                         <input type="button" id="expense_selected" class="input_selecter" value="Expense"/>
                         <form id="income_form" action="income_storage()">
-                            <p>Ammount: </p> <input type="text" name="ammount" placeholder="0.00€" required id="ammount" /><br />
+                            <p>Amount: </p> <input type="number" name="ammount" placeholder="0.00€" required id="income_ammount" /><br />
                             <div class="category" >
                                 <div>
                                     <img src="../../Icons 70x70/Salary.png" width="60px"/>
@@ -37,26 +39,28 @@
                                 <div>
                                     <img src="../../Icons 70x70/Bonus.png" width="60px"/>
                                 </div>
+                                <div>
+                                    <img src="../../Icons 70x70/Gifts.png" width="60px"/>
+                                </div>
                                 
                             </div><br />  
-                            <p>Notes:</p> <input type="text" name="notes" placeholder="Your comments here..." id="notes"/>
-                            <input type="button" name="input_form_submit" value="Save"  id="save_income"/>                                                     
+                            <p>Notes:</p> <input type="text" name="notes" placeholder="Your comments here..." id="income_notes"/>
+                            <input type="button" style="background:#0026ff;" name="input_form_submit" value="Save" class="save"  id="save_income"/>                                                     
                         </form>
-                        <form id="expense_form">
-                            <p>Ammount: </p> <input type="text" name="ammount" placeholder="0.00€"/><br />
+                        <form id="expense_form" action="expence_storage()">
+                            <p>Amount: </p> <input  type="text" name="expense_ammount" placeholder="0.00€" id="expense_ammount"/><br />
                             <div class="category">
-<<<<<<< HEAD
-                                <div class="itemtemplate" data-win-control="WinJS.Binding.Template"s>
-                                    <img src="../../Icons 70x70/Rent.png" width="60px" />
-=======
+
                                 <div>
-                                    <img src="../../Icons/house.png" width="60px" />
->>>>>>> data saving
+                                    <img src="../../Icons 70x70/Rent.png" width="60px" />
                                 </div>
                                 <div>
                                     <img src="../../Icons 70x70/Food.png" width="60px"/>
                                 </div>
                                 <div>
+                                    <img src="../../Icons 70x70/Electricity.png" width="60px"/>
+                                </div>
+                                 <div>
                                     <img src="../../Icons 70x70/Fuel.png" width="60px"/>
                                 </div>
                                 <div>
@@ -66,17 +70,23 @@
                                     <img src="../../Icons 70x70/Love.png" width="60px"/>
                                 </div>
                             </div><br />
-                            <p>Notes:</p> <input type="text" name="notes" placeholder="Your comments here..." />                             
-                            <input type="submit" name="input_form_submit" value="Save" class="save" />
+                            <p>Notes:</p> <input type="text" name="notes" placeholder="Your comments here..." id="expense_notes" /><br />                             
+                            <input type="button" style="background:#0026ff;" name="input_form_submit" value="Save" id="save_expense" class="save"/>
                         </form>
                     </div>
                     
                 </div>
-                <div class="result">
-                    <div ><p id="textarea"></p></div>
+                
+                <div id="result" class="result">
+                    
                 </div>
             </div>
         </section>
+        <div id="declarativeAppBar" data-win-control="WinJS.UI.AppBar" data-win-options="">
+            <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdRemove',label:'Remove',icon:'remove', section: 'global', tooltip: 'Remove item'}" onclick="appbar2.remove()"></button>
+            <hr data-win-control="WinJS.UI.AppBarCommand" data-win-options="{type:'separator', section:'global'}" />
+            <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdDelete', label: 'Delete', icon:'delete', section:'global', tooltip:'Delete Item'}"></button>
+        </div>
     </div>
 </body>
 </html>

@@ -23,8 +23,8 @@
   <Applications>
     <Application Id="App" StartPage="default.html">
       <VisualElements DisplayName="MoneyMagnet" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="MoneyMagnet" ForegroundText="light" BackgroundColor="#464646">
-        <DefaultTile ShowName="allLogos" />
-        <SplashScreen Image="images\splashscreen.png" />
+        <DefaultTile ShowName="allLogos" WideLogo="images/widelogo.png" />
+        <SplashScreen Image="images\splashscreen.png" BackgroundColor="white" />
       </VisualElements>
     </Application>
   </Applications>

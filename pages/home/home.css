@@ -1,6 +1,12 @@
 ﻿.homepage section[role=main] {
     margin-left: 120px;
     margin-right: 120px;
+    
+}
+
+.main
+{
+     height: 700px;
 }
 
 @media screen and (-ms-view-state: snapped) {
@@ -17,11 +23,21 @@
     }
 }
 
+#input_col
+{
+    clear:both;
+    float: left;
+    width: 400px;
+}
+
+form p
+{
+    margin-left: 20px;
+}
+
 .grid #input_col > div.msgrid {
-    display:-ms-grid;
-    -ms-grid-columns: 1;
-    -ms-grid-rows: 1;
-    background: #f2f2f2; /*rgb(0, 188, 242);*/
+    
+    background: #f2f2f2;
     width: 400px;
     height: 500px;
     padding-top: 30px;
@@ -70,6 +86,12 @@
         -ms-grid-row: 2;
     }
 
+    .grid .category > div:nth-child(6)
+    {
+        -ms-grid-column: 3;
+        -ms-grid-row: 2;
+    }
+
     
 #income_form {
     display:none;
@@ -82,7 +104,15 @@
     }
 
 #expense_form {
-    display:none;
+    /*display:none;*/
+}
+
+#income_selected {
+    background: #008a00;
+}
+
+#expense_selected {
+    background: #ba141a;
 }
 
 .grid .input_selecter
@@ -93,9 +123,14 @@
     margin-bottom: 20px;
 }
 
-    .grid .input_selecter:hover
+    .grid #income_selected:hover
     {
-        background: #343434;
+        background: #7fba00;
+    }
+
+        .grid #expense_selected:hover
+    {
+        background: #e81123;
     }
 
 .save
@@ -103,4 +138,77 @@
     float: right;
     margin-right: 45px;
     margin-top: 15px;
+    
 }
+
+.expense_div
+{
+    background: #e81123;
+}
+
+.income_div
+{
+    background: #7fba00;
+}
+
+#result
+{
+    clear: both;
+    width: 420px;
+    margin-left: 500px;
+    height: 500px;
+    float: left;
+    margin-top: -534px;
+}
+
+    
+
+    #result > div
+    {    
+        float: left;
+        width: 200px;
+        height: 100px;
+        
+        margin: 5px;
+    }
+
+    #result p
+    {
+        margin-left: 20px;
+    }
+
+        /*.result > div:nth-child(1)
+        {
+            -ms-grid-column: 1;
+            -ms-grid-row: 1;
+        }
+
+        .result > div:nth-child(2)
+        {
+            -ms-grid-column: 2;
+            -ms-grid-row: 1;
+        }
+
+        .result > div:nth-child(3)
+        {
+            -ms-grid-column: 1;
+            -ms-grid-row: 2;
+        }
+
+        .result > div:nth-child(4)
+        {
+            -ms-grid-column: 2;
+            -ms-grid-row: 2;
+        }
+
+        .result > div:nth-child(5)
+        {
+            -ms-grid-column: 1;
+            -ms-grid-row: 3;
+        }*/
+
+img:hover
+{
+    background: lightgray;
+}
+

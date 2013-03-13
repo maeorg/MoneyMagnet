@@ -22,11 +22,17 @@
     <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons 70x70\Bonus.png">
       <PackagePath>Icons 70x70\Bonus.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons 70x70\Electricity.png">
+      <PackagePath>Icons 70x70\Electricity.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons 70x70\Food.png">
       <PackagePath>Icons 70x70\Food.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons 70x70\Fuel.png">
       <PackagePath>Icons 70x70\Fuel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons 70x70\Gifts.png">
+      <PackagePath>Icons 70x70\Gifts.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons 70x70\Love.png">
       <PackagePath>Icons 70x70\Love.png</PackagePath>
@@ -39,27 +45,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons 70x70\Salary.png">
       <PackagePath>Icons 70x70\Salary.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons\gas.png">
-      <PackagePath>Icons\gas.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons\food.png">
-      <PackagePath>Icons\food.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons\house.png">
-      <PackagePath>Icons\house.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons\Money.png">
-      <PackagePath>Icons\Money.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons\Paw-Print.png">
-      <PackagePath>Icons\Paw-Print.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons\Save-Money.png">
-      <PackagePath>Icons\Save-Money.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons\heart.png">
-      <PackagePath>Icons\heart.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -76,6 +61,9 @@
     <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\images\widelogo.png">
+      <PackagePath>images\widelogo.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\js\default.js">
       <PackagePath>js\default.js</PackagePath>
