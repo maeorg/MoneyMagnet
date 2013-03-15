@@ -74,6 +74,7 @@
     <Content Include="pages\home\home.html" />
     <Content Include="pages\home\home.js" />
     <Content Include="default.html" />
+    <Content Include="txt\test.txt" />
     <None Include="MoneyMagnet_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

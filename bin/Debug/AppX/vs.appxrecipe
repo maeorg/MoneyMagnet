@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>KATRINA-PC</Machine>
-    <WindowsUser>Katrina</WindowsUser>
+    <Machine>ERKI</Machine>
+    <WindowsUser>Erki</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>CFC62EF5137727C043E3387F7B8D967CE7ABD8B1B33B3521E787D0020D0B0C82</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>0022970C0097C4D029FCB4907D24FCAF87950319A2746407B6B3EA276EE2FE36</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>65a5682f-743f-48d5-97c1-b4355367ed15_1.0.0.0_neutral__w63jneffmx3dy</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>65a5682f-743f-48d5-97c1-b4355367ed15_w63jneffmx3dy!App</RegisteredUserModeAppID>
     <RegisteredPackageID>65a5682f-743f-48d5-97c1-b4355367ed15</RegisteredPackageID>
@@ -13,112 +13,116 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-03-10T11:46:59.846</Modified>
+      <Modified>2013-03-13T10:21:34.518</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\css\default.css">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2013-03-09T23:29:23.477</Modified>
+      <Modified>2013-03-13T09:21:35.361</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\pages\home\home.css">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
-      <Modified>2013-03-10T11:57:51.141</Modified>
+      <Modified>2013-03-13T09:21:35.407</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons 70x70\Bonus.png">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\Icons 70x70\Bonus.png">
       <PackagePath>Icons 70x70\Bonus.png</PackagePath>
-      <Modified>2013-03-10T02:25:15.800</Modified>
+      <Modified>2013-03-13T09:21:34.975</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons 70x70\Electricity.png">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\Icons 70x70\Electricity.png">
       <PackagePath>Icons 70x70\Electricity.png</PackagePath>
-      <Modified>2013-03-10T10:21:39.395</Modified>
+      <Modified>2013-03-13T09:21:34.975</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons 70x70\Food.png">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\Icons 70x70\Food.png">
       <PackagePath>Icons 70x70\Food.png</PackagePath>
-      <Modified>2013-03-10T03:03:43.271</Modified>
+      <Modified>2013-03-13T09:21:34.976</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons 70x70\Fuel.png">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\Icons 70x70\Fuel.png">
       <PackagePath>Icons 70x70\Fuel.png</PackagePath>
-      <Modified>2013-03-10T03:08:44.842</Modified>
+      <Modified>2013-03-13T09:21:34.977</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons 70x70\Gifts.png">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\Icons 70x70\Gifts.png">
       <PackagePath>Icons 70x70\Gifts.png</PackagePath>
-      <Modified>2013-03-10T09:59:52.372</Modified>
+      <Modified>2013-03-13T09:21:35.013</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons 70x70\Love.png">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\Icons 70x70\Love.png">
       <PackagePath>Icons 70x70\Love.png</PackagePath>
-      <Modified>2013-03-10T03:04:47.905</Modified>
+      <Modified>2013-03-13T09:21:35.013</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons 70x70\Pets.png">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\Icons 70x70\Pets.png">
       <PackagePath>Icons 70x70\Pets.png</PackagePath>
-      <Modified>2013-03-10T03:12:44.654</Modified>
+      <Modified>2013-03-13T09:21:35.014</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons 70x70\Rent.png">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\Icons 70x70\Rent.png">
       <PackagePath>Icons 70x70\Rent.png</PackagePath>
-      <Modified>2013-03-10T03:17:02.507</Modified>
+      <Modified>2013-03-13T09:21:35.015</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\Icons 70x70\Salary.png">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\Icons 70x70\Salary.png">
       <PackagePath>Icons 70x70\Salary.png</PackagePath>
-      <Modified>2013-03-10T02:24:26.272</Modified>
+      <Modified>2013-03-13T09:21:35.015</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\images\logo.png">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-03-10T11:12:07.921</Modified>
+      <Modified>2013-03-13T09:21:35.398</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\images\smalllogo.png">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-03-09T20:41:02.760</Modified>
+      <Modified>2013-03-13T09:21:35.399</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\images\splashscreen.png">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-03-10T11:48:07.891</Modified>
+      <Modified>2013-03-13T09:21:35.400</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\images\storelogo.png">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-03-09T20:41:02.762</Modified>
+      <Modified>2013-03-13T09:21:35.401</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\images\widelogo.png">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\images\widelogo.png">
       <PackagePath>images\widelogo.png</PackagePath>
-      <Modified>2013-03-10T11:22:35.969</Modified>
+      <Modified>2013-03-13T09:21:35.402</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\js\default.js">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2013-03-09T20:41:02.765</Modified>
+      <Modified>2013-03-15T10:55:25.048</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\js\navigator.js">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
-      <Modified>2013-03-09T20:41:02.767</Modified>
+      <Modified>2013-03-13T09:21:35.405</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\pages\home\home.js">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
-      <Modified>2013-03-10T10:22:44.502</Modified>
+      <Modified>2013-03-15T11:10:37.205</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\pages\home\home.html">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
-      <Modified>2013-03-10T10:34:28.465</Modified>
+      <Modified>2013-03-15T11:09:41.365</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\default.html">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2013-03-09T23:29:23.479</Modified>
+      <Modified>2013-03-13T09:21:35.363</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\txt\test.txt">
+      <PackagePath>txt\test.txt</PackagePath>
+      <Modified>2011-12-12T02:07:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erki\Documents\GitHub\MoneyMagnet\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-03-10T11:46:59.737</Modified>
+      <Modified>2013-03-13T10:21:34.373</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
       <Name>Microsoft.WinJS.1.0</Name>
-      <Version>1.0.9200.20512</Version>
+      <Version>1.0.9200.20602</Version>
       <Architecture>Neutral</Architecture>
-      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20512</FrameworkIdentity>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20602</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
     </ResolvedSDKReference>
   </ItemGroup>

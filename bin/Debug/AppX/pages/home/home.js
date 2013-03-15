@@ -1,12 +1,17 @@
-﻿(function () {
-    "use strict";
+﻿
 
+(function () {
+    "use strict";
+    
     WinJS.UI.Pages.define("/pages/home/home.html", {
         // This function is called whenever a user navigates to this page. It
         // populates the page elements with the app's data.
         
         ready: function (element, options) {
+            
             // TODO: Initialize the page here.
+            document.getElementById('db').addEventListener('click', createDB(), false);
+            document.getElementById('test').addEventListener('click', test, false);
             var income = document.getElementById('income_selected');
             var expense = document.getElementById('expense_selected');
             income.onclick = function () {
@@ -34,6 +39,11 @@
                 document.getElementById("expense_form").style.display = "block";
                 document.getElementById("income_form").style.display = "none";
             }
+
+            var lv;
+
+            
+            
 
             var appData = Windows.Storage.ApplicationData.current;
 
@@ -137,12 +147,65 @@
 
 
             }
+
+
            
+
+            
+
         }
+
 
     });
 
+    var newCreate = false;
     
+    function createDB() {
+        var dbRequest = window.indexedDB.open("userDataDb", 1);
+
+        dbRequest.onerror = function () { WinJS.log && WinJS.log("Error creating database.", "sample", "error"); };
+        dbRequest.onsuccess = function (evt) { dbSuccess(evt); };
+        dbRequest.onupgradeneeded = function (evt) { dbVersionUpgrade(evt); };
+        dbRequest.onblocked = function () { WinJS.log && WinJS.log("Database create blocked.", "sample", "error"); };
+
+        newCreate = false;
+    }
+
+    function dbVersionUpgrade(evt) {
+        if (MoneyMagnet.db) {
+            MoneyMagnet.db.close();
+        }
+        MoneyMagnet.db = evt.target.result;
+        
+        var txn = evt.target.transaction;
+
+        var bookStore = MoneyMagnet.db.createObjectStore("income", { keypath: "id", autoIncrement: true });
+        bookStore.createIndex("value", "value", { unique: false });
+
+        MoneyMagnet.db.createObjectStore("notes", { keypath: "id" });
+
+        txn.oncomplete = function () { WinJS.log && WinJS.log("Database schema created.", "sample", "status"); document.getElementById('result').innerHTML = "<p>success</p>"; };
+        newCreate = true;
+    }
+
+    function dbSuccess(evt) {
+
+        // Log whether the app tried to create the database when it already existed. 
+        if (!newCreate) {
+            // Close this additional database request
+            var db = evt.target.result;
+            db.close();
+
+            WinJS.log && WinJS.log("Database schema already exists.", "sample", "error");
+            return;
+        }
+    }
+
+    function test() {
+        if (!MoneyMagnet.db) {
+            
+        }
+    }
     
 }
 

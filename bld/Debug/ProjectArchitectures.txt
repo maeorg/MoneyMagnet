@@ -1,1 +1,1 @@
-C:\Users\Katrina\Documents\GitHub\MoneyMagnet\MoneyMagnet.jsproj;neutral
+C:\Users\Erki\Documents\GitHub\MoneyMagnet\MoneyMagnet.jsproj;neutral

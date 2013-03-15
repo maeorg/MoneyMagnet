@@ -12,6 +12,7 @@
     <link href="/css/default.css" rel="stylesheet" />
     <link href="/pages/home/home.css" rel="stylesheet" />
     <script src="/pages/home/home.js"></script>
+    <script src="/js/default.js"></script>
 </head>
 <body>
     <!-- The content that will be loaded and displayed. -->
@@ -26,8 +27,11 @@
         <section aria-label="Main content" role="main" id="main">
             <h2>Fast entry</h2>
             <div id="input_col">
+                <div></div>
                 <div class="msgrid">
                     <div>
+                        <button id="test">Testing</button>
+                        <button id="db">Database</button>
                         <input type="button" id="income_selected" class="input_selecter" value="Income"/>
                         <input type="button" id="expense_selected" class="input_selecter" value="Expense"/>
                         <form id="income_form" action="income_storage()">
@@ -47,7 +51,7 @@
                             <p>Notes:</p> <input type="text" name="notes" placeholder="Your comments here..." id="income_notes"/>
                             <input type="button" style="background:#0026ff;" name="input_form_submit" value="Save" class="save"  id="save_income"/>                                                     
                         </form>
-                        <form id="expense_form" action="expence_storage()">
+                        <form id="expense_form" action="expence_storage() ">
                             <p>Amount: </p> <input  type="text" name="expense_ammount" placeholder="0.00€" id="expense_ammount"/><br />
                             <div class="category">
 

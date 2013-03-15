@@ -4,16 +4,22 @@
     "use strict";
 
     WinJS.Binding.optimizeBindingReferences = true;
-
+    WinJS.Namespace.define('MoneyMagnet', {
+        db: db
+    });
     var app = WinJS.Application;
     var activation = Windows.ApplicationModel.Activation;
     var nav = WinJS.Navigation;
-
+    var db = null;
+    var newCreate;
+    
     app.addEventListener("activated", function (args) {
         if (args.detail.kind === activation.ActivationKind.launch) {
             if (args.detail.previousExecutionState !== activation.ApplicationExecutionState.terminated) {
                 // TODO: This application has been newly launched. Initialize
                 // your application here.
+                
+                
             } else {
                 // TODO: This application has been reactivated from suspension.
                 // Restore application state here.
@@ -23,6 +29,7 @@
                 nav.history = app.sessionState.history;
             }
             args.setPromise(WinJS.UI.processAll().then(function () {
+                
                 if (nav.location) {
                     nav.history.current.initialPlaceholder = true;
                     return nav.navigate(nav.location, nav.state);
@@ -31,7 +38,15 @@
                 }
             }));
         }
-    });
+    }
+
+    );
+    
+   
+    
+    
+   
+
 
     app.oncheckpoint = function (args) {
         // TODO: This application is about to be suspended. Save any state
@@ -40,6 +55,8 @@
         // suspended, call args.setPromise().
         app.sessionState.history = nav.history;
     };
+
+   
 
     app.start();
 })();
