@@ -24,3 +24,16 @@ C:\Users\Katrina\Documents\GitHub\MoneyMagnet\bld\Debug\priconfig.xml.intermedia
 C:\Users\Katrina\Documents\GitHub\MoneyMagnet\bld\Debug\layout.resfiles.intermediate
 C:\Users\Katrina\Documents\GitHub\MoneyMagnet\bld\Debug\resources.resfiles.intermediate
 C:\Users\Katrina\Documents\GitHub\MoneyMagnet\bld\Debug\pri.resfiles.intermediate
+C:\Users\John Smith\Documents\GitHub\MoneyMagnet\bin\Debug\resources.pri
+C:\Users\John Smith\Documents\GitHub\MoneyMagnet\bin\Debug\AppxManifest.xml
+C:\Users\John Smith\Documents\GitHub\MoneyMagnet\bld\Debug\priconfig.xml
+C:\Users\John Smith\Documents\GitHub\MoneyMagnet\bld\Debug\layout.resfiles
+C:\Users\John Smith\Documents\GitHub\MoneyMagnet\bld\Debug\resources.resfiles
+C:\Users\John Smith\Documents\GitHub\MoneyMagnet\bld\Debug\pri.resfiles
+C:\Users\John Smith\Documents\GitHub\MoneyMagnet\bld\Debug\LanguageQualifiers.txt
+C:\Users\John Smith\Documents\GitHub\MoneyMagnet\bld\Debug\ProjectArchitectures.txt
+C:\Users\John Smith\Documents\GitHub\MoneyMagnet\bin\Debug\MoneyMagnet.build.appxrecipe
+C:\Users\John Smith\Documents\GitHub\MoneyMagnet\bld\Debug\priconfig.xml.intermediate
+C:\Users\John Smith\Documents\GitHub\MoneyMagnet\bld\Debug\layout.resfiles.intermediate
+C:\Users\John Smith\Documents\GitHub\MoneyMagnet\bld\Debug\resources.resfiles.intermediate
+C:\Users\John Smith\Documents\GitHub\MoneyMagnet\bld\Debug\pri.resfiles.intermediate

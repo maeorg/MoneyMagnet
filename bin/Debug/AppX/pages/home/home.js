@@ -15,7 +15,7 @@
                 document.getElementById("expense_form").style.display = "none";
             }
 
-            document.getElementsByTagName('img')
+           
             
             WinJS.Application.onloaded = function () {
                 WinJS.Resources.processAll();
@@ -197,6 +197,9 @@
 
             }
 
+            
+
+            
         }
 
     });
