@@ -8,7 +8,6 @@
         ready: function (element, options) {
             
             // TODO: Initialize the page here.
-            document.getElementById('test').addEventListener('click', test, false);
             var income = document.getElementById('income_selected');
             var expense = document.getElementById('expense_selected');
             income.onclick = function () {
@@ -79,9 +78,7 @@
                     var outputDiv = document.getElementById("result");
                     var contents = "";
                     if (income_amount !== "") {
-                        var contents = income_amount;
-                        if (income_notes !== "")
-                            var contents =+ "," + income_notes;
+                        var contents = income_amount + "," + income_notes + ",";
                     }
                     if (contents !== "") {
                         Windows.Storage.FileIO.appendTextAsync(MoneyMagnet.saveFile, contents).done(function () {
