@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 C:\Users\ReinK\Documents\GitHub\MoneyMagnet\MoneyMagnet.jsproj;neutral
+=======
+C:\Users\John Smith\Documents\GitHub\MoneyMagnet\MoneyMagnet.jsproj;neutral
+>>>>>>> b289679a4a0e5396525944fa9dc1f456450504be

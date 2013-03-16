@@ -28,6 +28,7 @@
             <h2>Fast entry</h2>
                 <div class="msgrid">
                     <div>
+<<<<<<< HEAD
                         <input type="button" id="income_selected" class="moneyType" value="Income"/>
                         <input type="button" id="expense_selected" class="moneyType" value="Expense"/>
                         <form id="money_form" action="expence_storage() ">
@@ -35,6 +36,29 @@
                         <input type="hidden" id="category" value="Stuff" />
                         <input type="hidden" id="who" value="Rain" />				
                             <p>Amount: </p> <input  type="text" name="amount" placeholder="0.00€" id="amount"/><br />
+=======
+                        <input type="button" id="income_selected" class="input_selecter" value="Income"/>
+                        <input type="button" id="expense_selected" class="input_selecter" value="Expense"/>
+                        <form id="income_form" action="income_storage()">
+                            <p>Amount: </p> <input type="number" name="amount" placeholder="0.00€" required id="income_amount" /><br />
+                            <div class="category" >
+                                <div>
+                                    <img src="../../Icons 70x70/Salary.png" width="60px"/>
+                                </div>
+                                <div>
+                                    <img src="../../Icons 70x70/Bonus.png" width="60px"/>
+                                </div>
+                                <div>
+                                    <img src="../../Icons 70x70/Gifts.png" width="60px"/>
+                                </div>
+                                
+                            </div><br />  
+                            <p>Notes:</p> <input type="text" name="notes" placeholder="Your comments here..." id="income_notes"/>
+                            <input type="button" style="background:#0026ff;" name="input_form_submit" value="Save" class="save"  id="save_income"/>                                                     
+                        </form>
+                        <form id="expense_form" action="expence_storage() ">
+                            <p>Amount: </p> <input  type="text" name="expense_amount" placeholder="0.00€" id="expense_amount"/><br />
+>>>>>>> b289679a4a0e5396525944fa9dc1f456450504be
                             <div class="category">
 
                                 <div>

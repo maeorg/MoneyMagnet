@@ -4,6 +4,10 @@
     <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>
+<<<<<<< HEAD
     <ReferenceCachePath>C:\Users\ReinK\AppData\Local\Temp\zt4skczj_MoneyMagnet_refcache</ReferenceCachePath>
+=======
+    <ReferenceCachePath>C:\Users\John Smith\AppData\Local\Temp\avyeqett_MoneyMagnet_refcache</ReferenceCachePath>
+>>>>>>> b289679a4a0e5396525944fa9dc1f456450504be
   </PropertyGroup>
 </Project>
