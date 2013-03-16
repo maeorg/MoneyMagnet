@@ -20,3 +20,7 @@ C:\Users\Erki\Documents\GitHub\MoneyMagnet\bld\Debug\priconfig.xml.intermediate
 C:\Users\Erki\Documents\GitHub\MoneyMagnet\bld\Debug\layout.resfiles.intermediate
 C:\Users\Erki\Documents\GitHub\MoneyMagnet\bld\Debug\resources.resfiles.intermediate
 C:\Users\Erki\Documents\GitHub\MoneyMagnet\bld\Debug\pri.resfiles.intermediate
+C:\Users\Katrina\Documents\GitHub\MoneyMagnet\bld\Debug\priconfig.xml.intermediate
+C:\Users\Katrina\Documents\GitHub\MoneyMagnet\bld\Debug\layout.resfiles.intermediate
+C:\Users\Katrina\Documents\GitHub\MoneyMagnet\bld\Debug\resources.resfiles.intermediate
+C:\Users\Katrina\Documents\GitHub\MoneyMagnet\bld\Debug\pri.resfiles.intermediate

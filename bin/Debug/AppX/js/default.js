@@ -5,13 +5,11 @@
 
     WinJS.Binding.optimizeBindingReferences = true;
     WinJS.Namespace.define('MoneyMagnet', {
-        db: db
     });
     var app = WinJS.Application;
     var activation = Windows.ApplicationModel.Activation;
     var nav = WinJS.Navigation;
-    var db = null;
-    var newCreate;
+    var saveFile = null;
     
     app.addEventListener("activated", function (args) {
         if (args.detail.kind === activation.ActivationKind.launch) {

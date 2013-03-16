@@ -1,6 +1,4 @@
-﻿
-
-(function () {
+﻿(function () {
     "use strict";
     
     WinJS.UI.Pages.define("/pages/home/home.html", {
@@ -10,7 +8,6 @@
         ready: function (element, options) {
             
             // TODO: Initialize the page here.
-            document.getElementById('db').addEventListener('click', createDB(), false);
             document.getElementById('test').addEventListener('click', test, false);
             var income = document.getElementById('income_selected');
             var expense = document.getElementById('expense_selected');
@@ -40,12 +37,54 @@
                 document.getElementById("income_form").style.display = "none";
             }
 
-            var lv;
-
-            
-            
-
             var appData = Windows.Storage.ApplicationData.current;
+
+            document.getElementById("test").addEventListener("click", createFile);
+
+            // Creates file
+            function createFile() {
+                Windows.Storage.KnownFolders.documentsLibrary.createFileAsync("sample.dat", Windows.Storage.CreationCollisionOption.replaceExisting).done(
+                function (file) {
+                    MoneyMagnet.saveFile = file;
+                    var outputDiv = document.getElementById("result");
+                    outputDiv.innerHTML = "The file '" + MoneyMagnet.saveFile.name + "' was created.";
+                },
+                function (error) {
+                    WinJS.log && WinJS.log(error, "sample", "error");
+                });
+            }
+
+            // Writes some text to 'sample.dat'
+            function writeText() {
+                if (SdkSample.sampleFile !== null) {
+                    var textArea = document.getElementById("textarea");
+                    var userContent = textArea.innerText;
+                    var outputDiv = document.getElementById("output");
+                    if (userContent !== "") {
+                        Windows.Storage.FileIO.writeTextAsync(SdkSample.sampleFile, userContent).done(function () {
+                            outputDiv.innerHTML = "The following text was written to '" + SdkSample.sampleFile.name + "':<br /><br />" + userContent;
+                        },
+                        function (error) {
+                            WinJS.log && WinJS.log(error, "sample", "error");
+                        });
+                    } else {
+                        outputDiv.innerHTML = "The text box is empty, please write something and then click 'Write' again.";
+                    }
+                }
+            }
+
+            // Reads text from 'sample.dat'
+            function readText() {
+                if (SdkSample.sampleFile !== null) {
+                    Windows.Storage.FileIO.readTextAsync(SdkSample.sampleFile).done(function (fileContent) {
+                        var outputDiv = document.getElementById("output");
+                        outputDiv.innerHTML = "The following text was read from '" + SdkSample.sampleFile.name + "':<br /><br />" + fileContent;
+                    },
+                    function (error) {
+                        WinJS.log && WinJS.log(error, "sample", "error");
+                    });
+                }
+            }
 
             function income_storage() {
                 var income = {
@@ -57,7 +96,6 @@
                 localStorage['income'] = JSON.stringify(income);
                 var income_object = JSON.parse(localStorage['income']);
                 var ammount = income_object['income_ammount'];
-                
                
                 var data_array = [''];
                 data_array.push = income_object;
@@ -89,8 +127,7 @@
                     //document.getElementById('textarea').innerHTML = income_object['ammount'];
                     //document.getElementById('textarea').innerHTML = income_object['notes'];
                 }
-
-                
+ 
             }
 
             function expense_storage() {
@@ -132,80 +169,13 @@
                         div.appendChild(p4);
                     }
 
-                    
-
-                   /*var bar = document.getElementByClass('appbar2').winControl;
-
-                    WinJS.Namespace.define('appbar2', {
-                        remove: WinJS.Utilities.markSupportedForProcessing(function(e) {
-                            Windows.UI.Popups.MessageDialog("remove").showAsync();
-                        })
-                    });
-                    //document.getElementById('textarea').innerHTML = income_object['ammount'];
-                    //document.getElementById('textarea').innerHTML = income_object['notes'];*/
                 }
-
 
             }
 
-
-           
-
-            
-
         }
-
 
     });
-
-    var newCreate = false;
-    
-    function createDB() {
-        var dbRequest = window.indexedDB.open("userDataDb", 1);
-
-        dbRequest.onerror = function () { WinJS.log && WinJS.log("Error creating database.", "sample", "error"); };
-        dbRequest.onsuccess = function (evt) { dbSuccess(evt); };
-        dbRequest.onupgradeneeded = function (evt) { dbVersionUpgrade(evt); };
-        dbRequest.onblocked = function () { WinJS.log && WinJS.log("Database create blocked.", "sample", "error"); };
-
-        newCreate = false;
-    }
-
-    function dbVersionUpgrade(evt) {
-        if (MoneyMagnet.db) {
-            MoneyMagnet.db.close();
-        }
-        MoneyMagnet.db = evt.target.result;
-        
-        var txn = evt.target.transaction;
-
-        var bookStore = MoneyMagnet.db.createObjectStore("income", { keypath: "id", autoIncrement: true });
-        bookStore.createIndex("value", "value", { unique: false });
-
-        MoneyMagnet.db.createObjectStore("notes", { keypath: "id" });
-
-        txn.oncomplete = function () { WinJS.log && WinJS.log("Database schema created.", "sample", "status"); document.getElementById('result').innerHTML = "<p>success</p>"; };
-        newCreate = true;
-    }
-
-    function dbSuccess(evt) {
-
-        // Log whether the app tried to create the database when it already existed. 
-        if (!newCreate) {
-            // Close this additional database request
-            var db = evt.target.result;
-            db.close();
-
-            WinJS.log && WinJS.log("Database schema already exists.", "sample", "error");
-            return;
-        }
-    }
-
-    function test() {
-        if (!MoneyMagnet.db) {
-            
-        }
-    }
     
 }
 
