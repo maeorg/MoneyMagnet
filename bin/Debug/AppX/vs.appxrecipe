@@ -90,7 +90,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\John Smith\Documents\GitHub\MoneyMagnet\js\default.js">
       <PackagePath>js\default.js</PackagePath>
+<<<<<<< HEAD
+      <Modified>2013-03-16T18:30:05.778</Modified>
+=======
       <Modified>2013-03-16T15:51:03.650</Modified>
+>>>>>>> commit for pulling
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\John Smith\Documents\GitHub\MoneyMagnet\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
@@ -98,11 +102,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\John Smith\Documents\GitHub\MoneyMagnet\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
+<<<<<<< HEAD
+      <Modified>2013-03-16T19:19:52.874</Modified>
+=======
       <Modified>2013-03-16T19:06:27.185</Modified>
+>>>>>>> commit for pulling
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\John Smith\Documents\GitHub\MoneyMagnet\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
+<<<<<<< HEAD
+      <Modified>2013-03-16T17:15:22.584</Modified>
+=======
       <Modified>2013-03-16T19:10:44.872</Modified>
+>>>>>>> commit for pulling
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\John Smith\Documents\GitHub\MoneyMagnet\default.html">
       <PackagePath>default.html</PackagePath>
