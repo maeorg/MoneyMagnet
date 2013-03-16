@@ -21,9 +21,9 @@
       </VisualElements>
       <Extensions>
         <Extension Category="windows.fileTypeAssociation">
-          <FileTypeAssociation Name="dat">
+          <FileTypeAssociation Name="txt">
             <SupportedFileTypes>
-              <FileType>.dat</FileType>
+              <FileType>.txt</FileType>
             </SupportedFileTypes>
           </FileTypeAssociation>
         </Extension>

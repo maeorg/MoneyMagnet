@@ -5,7 +5,7 @@
     <WindowsUser>Katrina</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>9254BFB30AC890D7AE581FD45C1F9EE7A215B4958AEC7201DDA2A9EEA34FDCDE</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>D83F76380BAFCD0734357060CEE8D909D7F955CE2B8D3959471DF4ABA288B390</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>65a5682f-743f-48d5-97c1-b4355367ed15_1.0.0.0_neutral__w63jneffmx3dy</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>65a5682f-743f-48d5-97c1-b4355367ed15_w63jneffmx3dy!App</RegisteredUserModeAppID>
     <RegisteredPackageID>65a5682f-743f-48d5-97c1-b4355367ed15</RegisteredPackageID>
@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-03-16T14:22:03.522</Modified>
+      <Modified>2013-03-16T14:50:59.062</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -98,7 +98,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
-      <Modified>2013-03-16T14:18:15.471</Modified>
+      <Modified>2013-03-16T15:47:48.673</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
@@ -114,7 +114,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-03-16T14:22:03.433</Modified>
+      <Modified>2013-03-16T14:50:58.956</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

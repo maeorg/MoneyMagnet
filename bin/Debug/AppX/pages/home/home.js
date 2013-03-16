@@ -40,10 +40,11 @@
             var appData = Windows.Storage.ApplicationData.current;
 
             document.getElementById("test").addEventListener("click", createFile);
-
+            
             // Creates file
-            function createFile() {
-                Windows.Storage.KnownFolders.documentsLibrary.createFileAsync("sample.dat", Windows.Storage.CreationCollisionOption.replaceExisting).done(
+            function createFile() {                 
+                Windows.Storage.KnownFolders.documentsLibrary.createFolderAsync("MoneyMagnet", Windows.Storage.CreationCollisionOption.replaceExisting);
+                Windows.Storage.KnownFolders.documentsLibrary.createFileAsync("MoneyMagnet\\data.txt", Windows.Storage.CreationCollisionOption.replaceExisting).done(
                 function (file) {
                     MoneyMagnet.saveFile = file;
                     var outputDiv = document.getElementById("result");
