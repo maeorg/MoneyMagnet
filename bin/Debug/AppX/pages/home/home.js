@@ -38,8 +38,6 @@
             }
 
             var appData = Windows.Storage.ApplicationData.current;
-
-            document.getElementById("test").addEventListener("click", insertData);
             
             function insertData() {
                 validateFileExistence();
@@ -61,30 +59,33 @@
                 );
             }
     
-
             // Creates file
             function createFile() {                              
-                    Windows.Storage.KnownFolders.documentsLibrary.createFolderAsync("MoneyMagnet", Windows.Storage.CreationCollisionOption.replaceExisting);
+                    Windows.Storage.KnownFolders.documentsLibrary.createFolderAsync("MoneyMagnet", Windows.Storage.CreationCollisionOption.replaceExisting).done(
                     Windows.Storage.KnownFolders.documentsLibrary.createFileAsync("MoneyMagnet\\data.txt", Windows.Storage.CreationCollisionOption.replaceExisting).done(
                     function (file) {
                         MoneyMagnet.saveFile = file;
-                        var outputDiv = document.getElementById("result");
-                        outputDiv.innerHTML = "The file '" + MoneyMagnet.saveFile.name + "' was created.";
                     },
                     function (error) {
-                        WinJS.log && WinJS.log(error, "sample", "error");
-                    });
+                        WinJS.log && WinJS.log(error, "data", "error");
+                    }));
             }
 
-            // Writes some text to 'sample.dat'
+            // Writes some text to 'data.txt'
             function writeText() {
                 if (MoneyMagnet.saveFile !== null) {
                     var income_amount = document.getElementById("income_amount").value;
                     var income_notes = document.getElementById("income_notes").value;
                     var outputDiv = document.getElementById("result");
+                    var contents = "";
                     if (income_amount !== "") {
-                        Windows.Storage.FileIO.appendTextAsync(MoneyMagnet.saveFile, income_amount).done(function () {
-                            outputDiv.innerHTML = "The following text was written to '" + MoneyMagnet.saveFile.name + "':<br /><br />" + income_amount;
+                        var contents = income_amount;
+                        if (income_notes !== "")
+                            var contents =+ "," + income_notes;
+                    }
+                    if (contents !== "") {
+                        Windows.Storage.FileIO.appendTextAsync(MoneyMagnet.saveFile, contents).done(function () {
+                            readText();
                         },
                         function (error) {
                             WinJS.log && WinJS.log(error, "data", "error");
@@ -95,18 +96,18 @@
                 }
                 }
 
-
-            // Reads text from 'sample.dat'
+            // Reads text from 'data.txt'
             function readText() {
-                if (SdkSample.sampleFile !== null) {
-                    Windows.Storage.FileIO.readTextAsync(SdkSample.sampleFile).done(function (fileContent) {
-                        var outputDiv = document.getElementById("output");
-                        outputDiv.innerHTML = "The following text was read from '" + SdkSample.sampleFile.name + "':<br /><br />" + fileContent;
-                    },
-                    function (error) {
-                        WinJS.log && WinJS.log(error, "sample", "error");
-                    });
-                }
+                if (MoneyMagnet.saveFile !== null) {
+                    Windows.Storage.KnownFolders.documentsLibrary.getFileAsync("MoneyMagnet\\data.txt").done (
+                        Windows.Storage.FileIO.readTextAsync(MoneyMagnet.saveFile).done(function (fileContent) {
+                            var outputDiv = document.getElementById("result");
+                            outputDiv.innerHTML = "The following text was read from '" + MoneyMagnet.saveFile.name + "':<br /><br />" + fileContent;
+                        },
+                        function (error) {
+                            WinJS.log && WinJS.log(error, "sample", "error");
+                        }));
+                    }
             }
 
             function income_storage() {
