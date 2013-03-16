@@ -90,7 +90,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2013-03-16T14:13:26.034</Modified>
+      <Modified>2013-03-16T18:30:05.778</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
@@ -98,11 +98,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
-      <Modified>2013-03-16T15:47:48.673</Modified>
+      <Modified>2013-03-16T18:35:51.867</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
-      <Modified>2013-03-15T11:33:12.628</Modified>
+      <Modified>2013-03-16T17:15:22.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Katrina\Documents\GitHub\MoneyMagnet\default.html">
       <PackagePath>default.html</PackagePath>
