@@ -69,11 +69,15 @@
     <Content Include="images\storelogo.png" />
     <Content Include="images\widelogo.png" />
     <Content Include="js\default.js" />
+    <Content Include="js\default2.js" />
+    <Content Include="js\jquery-1.8.2-win8-1.0.min.js" />
+    <Content Include="js\jquery-1.9.1.min.js" />
     <Content Include="js\navigator.js" />
     <Content Include="pages\home\home.css" />
     <Content Include="pages\home\home.html" />
     <Content Include="pages\home\home.js" />
     <Content Include="default.html" />
+    <Content Include="pages\home\home2.js" />
     <Content Include="txt\test.txt" />
     <None Include="MoneyMagnet_TemporaryKey.pfx" />
   </ItemGroup>

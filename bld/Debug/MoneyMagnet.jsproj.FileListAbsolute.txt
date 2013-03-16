@@ -24,3 +24,16 @@ C:\Users\Katrina\Documents\GitHub\MoneyMagnet\bld\Debug\priconfig.xml.intermedia
 C:\Users\Katrina\Documents\GitHub\MoneyMagnet\bld\Debug\layout.resfiles.intermediate
 C:\Users\Katrina\Documents\GitHub\MoneyMagnet\bld\Debug\resources.resfiles.intermediate
 C:\Users\Katrina\Documents\GitHub\MoneyMagnet\bld\Debug\pri.resfiles.intermediate
+C:\Users\ReinK\Documents\GitHub\MoneyMagnet\bin\Debug\resources.pri
+C:\Users\ReinK\Documents\GitHub\MoneyMagnet\bin\Debug\AppxManifest.xml
+C:\Users\ReinK\Documents\GitHub\MoneyMagnet\bin\Debug\MoneyMagnet.build.appxrecipe
+C:\Users\ReinK\Documents\GitHub\MoneyMagnet\bld\Debug\priconfig.xml
+C:\Users\ReinK\Documents\GitHub\MoneyMagnet\bld\Debug\layout.resfiles
+C:\Users\ReinK\Documents\GitHub\MoneyMagnet\bld\Debug\resources.resfiles
+C:\Users\ReinK\Documents\GitHub\MoneyMagnet\bld\Debug\pri.resfiles
+C:\Users\ReinK\Documents\GitHub\MoneyMagnet\bld\Debug\LanguageQualifiers.txt
+C:\Users\ReinK\Documents\GitHub\MoneyMagnet\bld\Debug\ProjectArchitectures.txt
+C:\Users\ReinK\Documents\GitHub\MoneyMagnet\bld\Debug\priconfig.xml.intermediate
+C:\Users\ReinK\Documents\GitHub\MoneyMagnet\bld\Debug\layout.resfiles.intermediate
+C:\Users\ReinK\Documents\GitHub\MoneyMagnet\bld\Debug\resources.resfiles.intermediate
+C:\Users\ReinK\Documents\GitHub\MoneyMagnet\bld\Debug\pri.resfiles.intermediate

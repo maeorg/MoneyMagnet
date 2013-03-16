@@ -11,7 +11,7 @@
 
     <link href="/css/default.css" rel="stylesheet" />
     <link href="/pages/home/home.css" rel="stylesheet" />
-    <script src="/pages/home/home.js"></script>
+    <script src="/pages/home/home2.js"></script>
     <script src="/js/default.js"></script>
 </head>
 <body>
@@ -26,33 +26,15 @@
 
         <section aria-label="Main content" role="main" id="main">
             <h2>Fast entry</h2>
-            <div id="input_col">
-                <div></div>
                 <div class="msgrid">
                     <div>
-                        <button id="test">Testing</button>
-                        <button id="db">Database</button>
-                        <input type="button" id="income_selected" class="input_selecter" value="Income"/>
-                        <input type="button" id="expense_selected" class="input_selecter" value="Expense"/>
-                        <form id="income_form" action="income_storage()">
-                            <p>Amount: </p> <input type="number" name="ammount" placeholder="0.00€" required id="income_ammount" /><br />
-                            <div class="category" >
-                                <div>
-                                    <img src="../../Icons 70x70/Salary.png" width="60px"/>
-                                </div>
-                                <div>
-                                    <img src="../../Icons 70x70/Bonus.png" width="60px"/>
-                                </div>
-                                <div>
-                                    <img src="../../Icons 70x70/Gifts.png" width="60px"/>
-                                </div>
-                                
-                            </div><br />  
-                            <p>Notes:</p> <input type="text" name="notes" placeholder="Your comments here..." id="income_notes"/>
-                            <input type="button" style="background:#0026ff;" name="input_form_submit" value="Save" class="save"  id="save_income"/>                                                     
-                        </form>
-                        <form id="expense_form" action="expence_storage() ">
-                            <p>Amount: </p> <input  type="text" name="expense_ammount" placeholder="0.00€" id="expense_ammount"/><br />
+                        <input type="button" id="income_selected" class="moneyType" value="Income"/>
+                        <input type="button" id="expense_selected" class="moneyType" value="Expense"/>
+                        <form id="money_form" action="expence_storage() ">
+                        <input type="hidden" id="type" value="0" />
+                        <input type="hidden" id="category" value="Stuff" />
+                        <input type="hidden" id="who" value="Rain" />				
+                            <p>Amount: </p> <input  type="text" name="amount" placeholder="0.00€" id="amount"/><br />
                             <div class="category">
 
                                 <div>
@@ -74,9 +56,23 @@
                                     <img src="../../Icons 70x70/Love.png" width="60px"/>
                                 </div>
                             </div><br />
-                            <p>Notes:</p> <input type="text" name="notes" placeholder="Your comments here..." id="expense_notes" /><br />                             
-                            <input type="button" style="background:#0026ff;" name="input_form_submit" value="Save" id="save_expense" class="save"/>
+                            <div class="category" >
+                                <div>
+                                    <img src="../../Icons 70x70/Salary.png" width="60px"/>
+                                </div>
+                                <div>
+                                    <img src="../../Icons 70x70/Bonus.png" width="60px"/>
+                                </div>
+                                <div>
+                                    <img src="../../Icons 70x70/Gifts.png" width="60px"/>
+                                </div>
+                                
+                            </div><br /> 
+                            <p>Notes:</p> <input type="text" name="notes" placeholder="Your comments here..." id="notes" /><br />                             
+                            <input type="button" style="background:#0026ff;" name="input_form_submit" value="Save" id="save_money" class="save"/>
                         </form>
+                        <button id="test">Testing</button>
+                        <button id="db">Database</button>
                     </div>
                     
                 </div>
@@ -84,7 +80,6 @@
                 <div id="result" class="result">
                     
                 </div>
-            </div>
         </section>
         <div id="declarativeAppBar" data-win-control="WinJS.UI.AppBar" data-win-options="">
             <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdRemove',label:'Remove',icon:'remove', section: 'global', tooltip: 'Remove item'}" onclick="appbar2.remove()"></button>

@@ -27,20 +27,30 @@
 {
     clear:both;
     float: left;
-    width: 400px;
+    
 }
+
 
 form p
 {
     margin-left: 20px;
 }
 
-.grid #input_col > div.msgrid {
+.grid div.msgrid {
     
     background: #f2f2f2;
     width: 400px;
     height: 500px;
     padding-top: 30px;
+	float:left
+}
+
+.expense_div {
+	float: right;
+}
+
+
+#result {
 }
 
 .grid .category
@@ -91,7 +101,6 @@ form p
         -ms-grid-column: 3;
         -ms-grid-row: 2;
     }
-
     
 #income_form {
     display:none;
@@ -153,12 +162,10 @@ form p
 
 #result
 {
-    clear: both;
     width: 420px;
-    margin-left: 500px;
+
     height: 500px;
     float: left;
-    margin-top: -534px;
 }
 
     
